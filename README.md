@@ -10,6 +10,15 @@ This repository contains the code framework, documentation, and reproducible pro
 
 The project evaluates how different AI decision strategies perform under realistic clinical constraints, especially when a screening system must maintain high sensitivity while reducing unnecessary referrals.
 
+## Repository Navigation
+
+- [Methodology](docs/methodology.md): Detailed explanation of the research pipeline
+- [Project Summary](docs/project_summary.md): Short overview of the study
+- [Results Tables](results/strategy_comparison.md): Detailed strategy comparison results
+- [Clinical Operating Points CSV](results/clinical_operating_points.csv): Structured results data
+- [Roadmap](ROADMAP.md): Planned improvements and future work
+- [Citation Metadata](CITATION.cff): Citation information for this repository
+  
 ## Project Motivation
 
 Diabetic retinopathy is a major cause of preventable blindness, but early detection can reduce long-term vision loss. AI models can help scale screening, yet real clinical deployment requires more than high AUC or accuracy. A useful screening system must prioritize patient safety while also reducing false positives that burden clinics and patients.
