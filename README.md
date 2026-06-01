@@ -109,6 +109,26 @@ Strategies are compared on a held-out test set using:
 - AUC
 - Referral burden
 
+## Results Visualizations
+
+### Sensitivity Comparison Across Decision Strategies
+
+This figure compares test-set sensitivity across all evaluated strategies. The dashed lines represent the 90% and 95% clinical sensitivity targets.
+
+![Sensitivity comparison across strategies](figures/sensitivity_comparison_all_strategies.png)
+
+### Confusion Matrix Example
+
+This confusion matrix shows the tradeoff between true positives, false positives, true negatives, and false negatives for a calibrated decision strategy.
+
+![Confusion matrix for calibrated strategy](figures/confusion_matrix_stage1.png)
+
+### ROC Curves
+
+The ROC curves compare base models and ensemble strategies on the held-out test set.
+
+![ROC curves for base models and ensembles](figures/roc_curves_models_ensembles.png)
+
 ## Key Insight
 
 The most important finding from this project is that model choice alone is not enough. The decision rule and sensitivity target can strongly change the clinical usefulness of an AI screening system.
