@@ -1,5 +1,11 @@
 # Beyond the Model: AI Decision Strategies for Diabetic Retinopathy Screening
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-orange)
+![Medical Imaging](https://img.shields.io/badge/Medical%20Imaging-Diabetic%20Retinopathy-green)
+![Status](https://img.shields.io/badge/Status-Research%20Project-purple)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 This repository contains the code framework, documentation, and reproducible project structure for a diabetic retinopathy screening study focused on **clinical decision strategy**, not just model accuracy.
 
 The project evaluates how different AI decision strategies perform under realistic clinical constraints, especially when a screening system must maintain high sensitivity while reducing unnecessary referrals.
