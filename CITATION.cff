@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Beyond the Model: AI Decision Strategies for Diabetic Retinopathy Screening"
+message: "If you use this repository, please cite the associated research project."
+type: software
+authors:
+  - family-names: Jena
+    given-names: Shlok S.
+  - family-names: Rayguru
+    given-names: Madan M.
+year: 2026
+repository-code: "https://github.com/shlokoyo123/diabetic-retinopathy-ai-decision-strategies"
+abstract: "A research framework evaluating diabetic retinopathy screening decision strategies under fixed clinical sensitivity constraints to reduce unnecessary referrals."
+keywords:
+  - diabetic retinopathy
+  - healthcare AI
+  - medical imaging
+  - clinical decision strategy
+  - deep learning
+license: MIT
