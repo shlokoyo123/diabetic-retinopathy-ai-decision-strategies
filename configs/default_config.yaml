@@ -1,0 +1,38 @@
+project:
+  name: diabetic-retinopathy-ai-decision-strategies
+  seed: 1337
+
+data:
+  image_size: 224
+  batch_size_train: 16
+  batch_size_eval: 64
+  patient_level_split: true
+
+training:
+  optimizer: AdamW
+  weight_decay: 0.0001
+  scheduler: cosine
+  early_stopping_patience: 4
+  mixed_precision: true
+
+models:
+  - name: resnet50
+    learning_rate: 0.0002
+    max_epochs: 14
+  - name: vit_b_16
+    learning_rate: 0.00005
+    max_epochs: 14
+  - name: supervised_encoder
+    learning_rate: 0.0002
+    max_epochs: 12
+
+evaluation:
+  sensitivity_targets:
+    - 0.95
+    - 0.90
+  metrics:
+    - auc
+    - sensitivity
+    - specificity
+    - false_positives
+    - false_negatives
