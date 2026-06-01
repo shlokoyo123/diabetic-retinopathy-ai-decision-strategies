@@ -14,6 +14,7 @@ The project evaluates how different AI decision strategies perform under realist
 
 - [Methodology](docs/methodology.md): Detailed explanation of the research pipeline
 - [Project Summary](docs/project_summary.md): Short overview of the study
+- [Reproducibility Guide](REPRODUCIBILITY.md): Instructions for reproducing the experiment setup and evaluation pipeline
 - [Results Tables](results/strategy_comparison.md): Detailed strategy comparison results
 - [Clinical Operating Points CSV](results/clinical_operating_points.csv): Structured results data
 - [Roadmap](ROADMAP.md): Planned improvements and future work
