@@ -109,6 +109,15 @@ Strategies are compared on a held-out test set using:
 - AUC
 - Referral burden
 
+## Results Summary
+
+Detailed strategy comparison tables are available here:
+
+- [Clinical operating point CSV](results/clinical_operating_points.csv)
+- [Detailed strategy comparison tables](results/strategy_comparison.md)
+
+The results compare model and ensemble strategies under fixed clinical sensitivity targets. This makes the project focus on real screening deployment constraints rather than only standard classification accuracy.
+
 ## Results Visualizations
 
 ### Sensitivity Comparison Across Decision Strategies
