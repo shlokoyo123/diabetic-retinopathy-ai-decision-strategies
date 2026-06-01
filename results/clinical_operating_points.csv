@@ -1,0 +1,10 @@
+sensitivity_target,strategy,specificity,false_positives,notes
+0.95,Supervised Encoder,0.175,3220,Best single model specificity at high-safety target
+0.95,ResNet50,0.149,3321,Single-model baseline
+0.95,ViT-B/16,0.152,3312,Transformer baseline
+0.95,Weighted Probability Average,0.162,3272,Ensemble strategy using AUC-weighted probabilities
+0.95,Stacking,0.162,3273,Logistic regression meta-classifier
+0.95,Majority Consensus,0.126,3413,Highest false-positive burden under strict sensitivity
+0.95,Two-Stage Pipeline,0.153,3308,Primary model plus agreement-based veto
+0.90,Ensemble Strategy,NA,NA,Lowering sensitivity target reduced false positives by approximately 17 percent
+0.90,Best Combined Operating Point,NA,NA,Combining 90 percent sensitivity with an ensemble strategy reduced unnecessary referrals by nearly 25 percent versus a single model at 95 percent sensitivity
